@@ -446,6 +446,56 @@ padding-left: 5px;
         padding: 5px;
     }
 } 
+@media screen and (min-width: 1440px){
+    header h1{
+        background-image: none;
+        font-size: 65px;
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    header div:first-child{
+        align-items: center;
+        width: 50vw;
+    }
+    .hero-product-tablet{
+        right: -700px;
+    }
+    .buttons-header{
+        flex-direction: row;
+    }
+    .buttons-header button:first-child{
+        width: 250px;
+        padding-left: 0;
+    }
+    .google-btn-text{
+        padding-left: 0;
+    }
+    .google-btn{
+        width: 250px;
+        padding-left: 5px;
+    }
+    header div p{
+        width: 24vw;  
+    }
+    .last-btns{
+        flex-direction: row;
+    }
+    .last-btns button {
+        width: 250px;
+    }
+    .last-section div {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .last-section div button:first-child{
+        border: none;
+    }
+    .last-section div button {
+        width: 250px;
+    }
+}
 /*
 
 background ivory: #F3EAE2
