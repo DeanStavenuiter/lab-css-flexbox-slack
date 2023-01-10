@@ -321,7 +321,16 @@ padding-left: 5px;
 .big-img-tablet{
     display: none;
 }
+
+.hero-product-tablet{
+    display: none;
+}
+.sign-in{
+    display: none;
+}
 @media screen and (min-width: 768px) {
+
+    
 
     header div:first-child{
         align-items: flex-start;
@@ -344,13 +353,14 @@ padding-left: 5px;
     header div p{
         text-align: left;
         padding-left: 15px;
+        width: 100vw;
     }
-    .hero-product {
+    .hero-product-tablet {
         width: 50vw;
+        display: block;
         position: relative;
-        right: -600px;
+        right: -400px;
         top: -400px;
-
     }
 .big-img{
     display: none;
@@ -399,6 +409,43 @@ padding-left: 5px;
     justify-content: space-between;
     padding: 0 20px;
 }
+
+@media screen and (min-width: 1024px){
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu li a {
+        color: white;
+    }
+    .buttons-nav{
+        display: flex;
+    }
+    .hero-product-tablet{
+        right: -510px;
+    }
+    nav div{
+        display: flex;
+        align-items: center;
+    }
+    .burger{
+        display: none;
+    }
+    .sign-in{
+        display: flex;
+        padding-left: 0;
+        gap: 5px;
+    }
+    .sign-in a{
+        color: white;
+    }
+    .sign-in li:nth-child(2) a:last-child{
+        background-color: white;
+        color: #540b51;
+        border-radius: 3px;
+        padding: 5px;
+    }
+} 
 /*
 
 background ivory: #F3EAE2
