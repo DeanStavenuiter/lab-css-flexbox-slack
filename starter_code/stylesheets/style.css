@@ -318,10 +318,87 @@ text-align: left;
 padding-left: 5px;
 }
 
+.big-img-tablet{
+    display: none;
+}
+@media screen and (min-width: 768px) {
 
+    header div:first-child{
+        align-items: flex-start;
+        width: 40vw;
+    }
+    header h1{
+        background-image: url(/starter_code/images/background-singup.png);
+        background-size: 125vw;
+        background-repeat: no-repeat;
+        font-size: 55px;
+        padding-left: 15px;
+        text-align: left;
+    }
+    .buttons-header{
+        padding-left: 15px;
+    }
+    header button{
+        width: 350px;
+    }
+    header div p{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .hero-product {
+        width: 50vw;
+        position: relative;
+        right: -600px;
+        top: -400px;
 
+    }
+.big-img{
+    display: none;
+}
 
+.big-img-tablet{
+    display: block;
+    width: 75vw;
+   height: auto;
+    padding: 50px 0;
+}
 
+.align-left-for-tablet{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-tablet{
+    width: 75vw;
+}
+
+.last-footer-list{
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+ font-size: 10px;
+
+    }
+.last-footer-list li {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.footer-icons{
+    justify-content: flex-start;
+    padding-left: 20px;
+    gap: 50px;
+}
+.copyright{
+    font-size: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.footer-lists{
+    justify-content: space-between;
+    padding: 0 20px;
+}
 /*
 
 background ivory: #F3EAE2
